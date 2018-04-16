@@ -1,0 +1,41 @@
+h1 {
+	text-shadow: 5px -10px 1.8px red;
+}
+
+#h2 {
+
+	transition: all 1s ease-in-out;
+
+}
+
+#h2:hover{
+	text-shadow: 5px -10px 1.8px red;
+	transition: all 1s ease-in-out;
+}
+
+@keyframes test {
+	from {
+		background-color: red;
+	}
+	to {
+		background-color: blue;
+	}
+	from {
+		background-color: blue;
+	}
+	to {
+		background-color: red;
+	}
+}
+
+
+body {
+	animation-name:  test;
+	animation-duration: 6s;
+	background-color: red;
+
+
+
+}
+
+
