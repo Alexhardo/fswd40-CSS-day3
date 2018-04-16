@@ -15,10 +15,13 @@ body {
 
 .tr-2 {
 	color: red;
+	background-color: blue;
 	transition: all 1s ease-in-out;
 }
 
 .tr-2:hover {
+	font-size: 40px;
+	background-color: black;
 	color: yellow;
 	transition: all 1s ease-in-out;
 }
