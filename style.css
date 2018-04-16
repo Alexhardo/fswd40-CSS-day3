@@ -1,6 +1,7 @@
 
 body {
 	font-size: 20px;
+	text-decoration: none;
 }
 
 .tr-1 {
@@ -72,4 +73,25 @@ p:hover {
 }
 
 
-x{}
+.tr-5{text-decoration: none;
+	color: red;
+	transition: all 2s ease-in-out;
+}
+.tr-5:hover {text-decoration: none;
+	transition: all 2s ease-in-out;
+	font-size: 100px;
+
+}
+
+.tr-6{text-decoration: none;
+margin-right: 60px;
+transition: all 1s ease-in;
+
+
+}
+.tr-6:hover{text-decoration: none;
+	 display: inline-block;
+	 margin-left:  60px;
+	 transition: all 1s ease-in;
+
+}
